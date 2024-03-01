@@ -1,0 +1,1491 @@
+1) 
+
+import java.util.Scanner; 
+
+public class Main 
+
+{ 
+
+public static void main(String[] args) { 
+
+Scanner leitor = new Scanner(System.in); 
+
+String nome= leitor.nextLine(); 
+
+System.out.println("Bem vindo : " + nome); 
+
+} 
+
+} 
+
+2) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner leitor = new Scanner(System.in); 
+
+         
+
+        System.out.println("Por favor, digite sua idade : "); 
+
+        String idadeTexto = leitor.nextLine(); 
+
+         
+
+        int idade = Integer.parseInt(idadeTexto); 
+
+         
+
+        System.out.println("Sua idade em número inteiro é: " + idade); 
+
+         
+
+        leitor.close();  
+
+    } 
+
+} 
+
+ 
+
+3) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner leitor = new Scanner(System.in); 
+
+         
+
+        System.out.println("Por favor, digite um número: "); 
+
+        String idadeTexto = leitor.nextLine(); 
+
+         
+
+        Float idade = Float.parseFloat(idadeTexto); 
+
+         
+
+        System.out.println("Seu número é: " + idade); 
+
+         
+
+        leitor.close();  
+
+    } 
+
+} 
+
+ 
+
+ 
+
+4) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner leitor = new Scanner(System.in); 
+
+         
+
+        System.out.println("Por favor, digite um número: "); 
+
+        int num1 = leitor.nextInt(); 
+
+        System.out.println("Por favor, digite outro número: "); 
+
+        int num2 = leitor.nextInt(); 
+
+        int num3=num1 + num2; 
+
+        System.out.println(" A soma é: " +num3); 
+
+         
+
+        leitor.close();  
+
+    } 
+
+} 
+
+ 
+
+5) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner leitor = new Scanner(System.in); 
+
+         
+
+        System.out.println("Por favor, digite um número: "); 
+
+        int num1 = leitor.nextInt(); 
+
+         
+
+        int num2 = num1*num1; 
+
+         
+
+        System.out.println("O quadrado é: " +num2); 
+
+         
+
+        leitor.close();  
+
+    } 
+
+} 
+
+ 
+
+6) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner leitor = new Scanner(System.in); 
+
+         
+
+        System.out.println("Por favor, digite o ano que você nasceu: "); 
+
+        int num1 = leitor.nextInt(); 
+
+         
+
+        int num2 = 2024-num1; 
+
+         
+
+        System.out.println(" sua idade é: " +num2); 
+
+         
+
+        leitor.close();  
+
+    } 
+
+} 
+
+ 
+
+7) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner leitor = new Scanner(System.in); 
+
+         
+
+        System.out.println("Por favor, digite seu primeiro nome: "); 
+
+        String num1 = leitor.next(); 
+
+        System.out.println("por favor digite seu segundo nome:"); 
+
+        String num2 = leitor.next(); 
+
+         
+
+        System.out.println(" olá:" +num1+" " +num2+ " ,bem vindo(a)"); 
+
+         
+
+        leitor.close();  
+
+    } 
+
+} 
+
+ 
+
+8) 
+
+ 
+
+9) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner leitor = new Scanner(System.in); 
+
+         
+
+        System.out.println("Por favor, informe um animal: "); 
+
+        String num1 = leitor.next(); 
+
+         
+
+         
+
+         
+
+        System.out.println("o animal informado é:"+num1); 
+
+         
+
+        leitor.close();  
+
+    } 
+
+} 
+
+ 
+
+10) 
+
+import java.util.Scanner;  
+
+  
+
+   
+
+  
+
+public class Main {  
+
+  
+
+    public static void main(String[] args) {  
+
+  
+
+        Scanner leitor = new Scanner(System.in);  
+
+  
+
+          
+
+  
+
+        System.out.println("Por favor, digite seu primeiro nome: ");  
+
+  
+
+        String num1 = leitor.next();  
+
+  
+
+        System.out.println("por favor digite seu segundo nome:");  
+
+  
+
+        String num2 = leitor.next(); 
+
+        System.out.println(" olá:" +num2+" " +num1+ " ,bem vindo(a)");     } } 
+
+11) 
+
+import java.util.Scanner;  
+
+  
+
+   
+
+  
+
+public class Main {  
+
+  
+
+    public static void main(String[] args) {  
+
+  
+
+        Scanner leitor = new Scanner(System.in);  
+
+  
+
+          
+
+  
+
+        System.out.println("Por favor, digite seu primeiro nome: ");  
+
+  
+
+        String num1 = leitor.next();  
+
+  
+
+        System.out.println("por favor digite seu segundo nome:");  
+
+  
+
+        String num2 = leitor.next();  
+
+  
+
+          
+
+  
+
+        System.out.println(" olá:" +num2+" " +num1+ " ,bem vindo(a)");  
+
+  
+
+         (OBS: ELE NAO ESTA CONTANDO AS LETRAS APOS CAPTURAR O ESPAÇO); 
+
+  
+
+         
+
+  
+
+    }  
+
+  
+
+} 
+
+ 
+
+12) 
+
+import java.util.Scanner;  
+
+public class Main {  
+
+  
+
+    public static void main(String[] args) {  
+
+  
+
+        Scanner leitor = new Scanner(System.in); 
+
+        System.out.println("Por favor, digite um numero: ");  
+
+        int num1 = leitor.nextInt();  
+
+        int num2 = num1%2; 
+
+        if(num1==2){ 
+
+             
+
+            System.out.println("o numero é impar");  
+
+             
+
+        } 
+
+        else if(num2!=0.0){ 
+
+             
+
+             
+
+            System.out.println("o numero é impar");  
+
+             
+
+        } 
+
+        else{ 
+
+            System.out.println("o numero é par");  
+
+             
+
+        } 
+
+    }  
+
+}  
+
+ 
+
+ 
+
+13) 
+
+import java.util.Scanner;  
+
+public class Main {  
+
+  
+
+    public static void main(String[] args) {  
+
+  
+
+        Scanner leitor = new Scanner(System.in); 
+
+        System.out.println("Por favor, digite um numero: ");  
+
+        int num1 = leitor.nextInt();  
+
+         
+
+        if(num1>=0){ 
+
+             
+
+            System.out.println("o numero positivo");  
+
+             
+
+        } 
+
+         
+
+        else{ 
+
+            System.out.println("o numero negativo");  
+
+             
+
+        } 
+
+    }  
+
+}  
+
+ 
+
+ 
+
+14) 
+
+import java.util.Scanner;  
+
+public class Main {  
+
+  
+
+    public static void main(String[] args) {  
+
+  
+
+        Scanner leitor = new Scanner(System.in); 
+
+        System.out.println("Por favor, digite um numero: ");  
+
+        int num1 = leitor.nextInt();  
+
+        System.out.println("Por favor, digite outro numero: ");  
+
+        int num2 = leitor.nextInt();  
+
+        if(num1>num2){ 
+
+             
+
+            System.out.println("numero 1 é maior que numero 2");  
+
+             
+
+        } 
+
+         
+
+        else if(num2<num1){ 
+
+            System.out.println("numero 2 é maior que numero 1");  
+
+             
+
+        } 
+
+        else{ 
+
+            System.out.println("os numeros tem o mesmo valor");  
+
+        } 
+
+    }  
+
+}  
+
+ 
+
+ 
+
+15) 
+
+import java.util.Scanner;  
+
+public class Main {  
+
+  
+
+    public static void main(String[] args) {  
+
+  
+
+        Scanner leitor = new Scanner(System.in); 
+
+        System.out.println("Por favor, digite seu peso: ");  
+
+        float num1 = leitor.nextFloat();  
+
+        System.out.println("Por favor, digite sua altura: ");  
+
+        float num2 = leitor.nextFloat();  
+
+        float num3=num1/(num2*num2); 
+
+         
+
+            System.out.println("o seu imc é: "+num3);  
+
+         
+
+    }  
+
+}  
+
+ 
+
+ 
+
+16) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main {   
+
+    public static void main(String[] args) {   
+
+        Scanner leitor = new Scanner(System.in);   
+
+        System.out.println("Por favor, digite seu nome: ");   
+
+        String num1 = leitor.nextLine();   
+
+        int num2 = num1.length();   
+
+        if(num2 >= 5) { 
+
+            System.out.println("O valor é maior ou igual a 5"); 
+
+        } else { 
+
+            System.out.println("O valor é menor que 5"); 
+
+        }   
+
+    }  
+
+} 
+
+OBS: CONTINUA CONTANDO O ESPAÇO COMO CARACTER 
+
+17) 
+
+import java.util.Scanner;   
+
+public class Main 
+
+{ 
+
+	public static void main(String[] args) { 
+
+		Scanner leitor = new Scanner(System.in); 
+
+		System.out.println("Informe seu estado cívil:"); 
+
+		String num1=leitor.next(); 
+
+		System.out.println("Você é " + num1); 
+
+		 
+
+	} 
+
+} 
+
+ 
+
+18) 
+
+import java.util.Scanner;   
+
+public class Main 
+
+{ 
+
+	public static void main(String[] args) { 
+
+		Scanner leitor = new Scanner(System.in); 
+
+		System.out.println("Informe a altura do triangulo:"); 
+
+		int num1=leitor.nextInt(); 
+
+		System.out.println("Informe o tamanho da base do triangulo:"); 
+
+		int num2=leitor.nextInt(); 
+
+		int num3=(num1 * num2); 
+
+		 
+
+		System.out.println("A area é igual a: " + num3); 
+
+		 
+
+	} 
+
+} 
+
+ 
+
+19) 
+
+???? 
+
+20) 
+
+import java.util.Scanner;   
+
+public class Main 
+
+{ 
+
+	public static void main(String[] args) { 
+
+		Scanner leitor = new Scanner(System.in); 
+
+		System.out.println("Informe numero decimal:"); 
+
+	    float num1=leitor.nextFloat(); 
+
+		System.out.println("Informe numero decimal:"); 
+
+		float  num2=leitor.nextFloat(); 
+
+		float num3=num1/num2; 
+
+		 
+
+		System.out.println("resultado da divisao: " + num3); 
+
+		 
+
+	} 
+
+} 
+
+ 
+
+21) 
+
+import java.util.Scanner;   
+
+public class Main 
+
+{ 
+
+	public static void main(String[] args) { 
+
+		Scanner leitor = new Scanner(System.in); 
+
+		System.out.println("Informe numero decimal:"); 
+
+	    float num1=leitor.nextFloat(); 
+
+		 
+
+		int  num2=(int)num1; 
+
+		 
+
+		 
+
+		System.out.println("o inteiro é: " + num2); 
+
+		 
+
+	} 
+
+} 
+
+22) 
+
+import java.util.Scanner;    
+
+public class Main  
+
+{  
+
+	public static void main(String[] args) { 
+
+		Scanner leitor = new Scanner(System.in);  
+
+		System.out.println("Informe numero :");  
+
+	    String num1=leitor.next();  
+
+        int num2=10 +Integer.parseInt(num1); 
+
+        String num3=Integer.toString(num2); 
+
+		System.out.println("o inteiro é: " + num3);  
+
+	}  
+
+} 
+
+23) 
+
+import java.util.Scanner; 
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+        System.out.println("Digite a data no formato dd/mm/aaaa: "); 
+
+        String inputData = scanner.nextLine(); 
+
+        String[] partes = inputData.split("/"); 
+
+        int dia = Integer.parseInt(partes[0]); 
+
+        int mes = Integer.parseInt(partes[1]); 
+
+        int ano = Integer.parseInt(partes[2]); 
+
+        System.out.println("Dia: " + dia); 
+
+        System.out.println("Mês: " + mes); 
+
+        System.out.println("Ano: " + ano); 
+
+    } 
+
+} 
+
+ 
+
+24) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite o nome da cidade: "); 
+
+        String num1 = scanner.nextLine(); 
+
+  
+
+        System.out.println("Digite o nome do estado: "); 
+
+        String num2 = scanner.nextLine(); 
+
+  
+
+        String mensagem = "Você mora em " + num1 + ", " + num2 + "."; 
+
+  
+
+        System.out.println(mensagem); 
+
+    } 
+
+} 
+
+ 
+
+25) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite o ano em que você nasceu: "); 
+
+        int num1 = scanner.nextInt(); 
+
+  
+
+        
+
+         
+
+  
+
+        String mensagem = "Bem-vindo ao nosso programa,nascido em " + num1 ; 
+
+  
+
+        System.out.println(mensagem); 
+
+    } 
+
+} 
+
+ 
+
+26) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite um número: "); 
+
+        int num1 = scanner.nextInt(); 
+
+        System.out.println("Digite uma frase:"); 
+
+        String num2 = scanner.next(); 
+
+        
+
+         
+
+  
+
+        String mensagem =num1 + " " + num2 ; 
+
+  
+
+        System.out.println(mensagem); 
+
+    } 
+
+} 
+
+ 
+
+27) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite o nome do produto: "); 
+
+        String num1 = scanner.next(); 
+
+        System.out.println("Digite o valor do produto:"); 
+
+        int num2 = scanner.nextInt(); 
+
+        String mensagem ="produto " + num1 + "; valor: R$" + num2 ; 
+
+        System.out.println(mensagem); 
+
+    } 
+
+} 
+
+ 
+
+28) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite um valor: "); 
+
+        int num1 = scanner.nextInt(); 
+
+        int num2 = num1 * 2; 
+
+        String mensagem ="O dobro do valor é: " + num2 ; 
+
+        System.out.println(mensagem); 
+
+    } 
+
+} 
+
+ 
+
+ 
+
+29) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite seu endereço de e-mail: "); 
+
+        String num1 = scanner.nextLine(); 
+
+  
+
+        String mensagem = "Obrigado por fornecer seu e-mail, " + email ; 
+
+    } 
+
+} 
+
+ 
+
+30) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite o primeiro número inteiro: "); 
+
+        int num1 = scanner.nextInt(); 
+
+  
+
+        System.out.println("Digite o segundo número inteiro: "); 
+
+        int num2 = scanner.nextInt(); 
+
+  
+
+        int soma = num1 + num2; 
+
+        System.out.println("Soma: " + soma); 
+
+  
+
+        int diferenca = num1 - num2; 
+
+        System.out.println("Diferença: " + diferenca); 
+
+  
+
+        int produto = num1 * num2; 
+
+        System.out.println("Produto: " + produto); 
+
+  
+
+        if (num2 != 0) { 
+
+            int quociente = num1 / num2; 
+
+            System.out.println("Quociente (divisão inteira): " + quociente); 
+
+        } else { 
+
+            System.out.println("Não é possível calcular o quociente. O segundo número é zero."); 
+
+        } 
+
+    } 
+
+} 
+
+ 
+
+31) 
+
+import java.util.Scanner;    
+
+  
+
+public class Main  
+
+  
+
+{  
+
+  
+
+	public static void main(String[] args) {  
+
+  
+
+		Scanner leitor = new Scanner(System.in);  
+
+  
+
+		System.out.println("Informe a altura do triangulo:");  
+
+  
+
+		int num1=leitor.nextInt();  
+
+  
+
+		System.out.println("Informe o tamanho da base do triangulo:");  
+
+  
+
+		int num2=leitor.nextInt();  
+
+  
+
+		int num3=(num1 * num2)/2;  
+
+  
+
+		  
+
+  
+
+		System.out.println("A area é igual a: " + num3);  
+
+  
+
+		  
+
+  
+
+	}  
+
+  
+
+}  
+
+ 
+
+ 
+
+32) 
+
+import java.util.Scanner;    
+
+  
+
+public class Main  
+
+  
+
+{  
+
+  
+
+	public static void main(String[] args) {  
+
+  
+
+		Scanner leitor = new Scanner(System.in);  
+
+  
+
+		System.out.println("Informe o raio do circulo:");  
+
+  
+
+		int num1=leitor.nextInt();  
+
+  
+
+		System.out.println("Informe o tamanho da base do triangulo:");  
+
+  
+
+		float num2=(3.14 * num1 * 2);  
+
+  
+
+		 
+
+  
+
+		  
+
+  
+
+		System.out.println("A circunferência é igual a: " + num3);  
+
+  
+
+		  
+
+  
+
+	}  
+
+  
+
+}  
+
+ 
+
+ 
+
+33) 
+
+import java.util.Scanner;    
+
+  
+
+public class Main  
+
+  
+
+{  
+
+  
+
+	public static void main(String[] args) {  
+
+  
+
+		Scanner leitor = new Scanner(System.in);  
+
+  
+
+		System.out.println("Informe a altura do triangulo:");  
+
+  
+
+		int num1=leitor.nextInt();  
+
+  
+
+		System.out.println("Informe o tamanho da base do triangulo:");  
+
+  
+
+		int num2=leitor.nextInt();  
+
+  
+
+		int num3=(num1 * num2)/2;  
+
+  
+
+		  
+
+  
+
+		System.out.println("A area é igual a: " + num3);  
+
+  
+
+		  
+
+  
+
+	}  
+
+  
+
+} 
+
+ 
+
+34) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite o primeiro número decimal: "); 
+
+        double numero1 = scanner.nextDouble(); 
+
+  
+
+        System.out.println("Digite o segundo número decimal: "); 
+
+        double numero2 = scanner.nextDouble(); 
+
+  
+
+        System.out.println("Digite o terceiro número decimal: "); 
+
+        double numero3 = scanner.nextDouble(); 
+
+  
+
+        double media = (numero1 + numero2 + numero3) / 3; 
+
+        System.out.println("Média aritmética: " + media); 
+
+    } 
+
+} 
+
+ 
+
+35) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite sua idade: "); 
+
+        int idade = scanner.nextInt(); 
+
+  
+
+        int meses = idade * 12; 
+
+        int dias = idade * 365; 
+
+  
+
+        System.out.println("Você já viveu aproximadamente " + meses + " meses e " + dias + " dias."); 
+
+    } 
+
+} 
+
+ 
+
+36) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite o valor em reais: "); 
+
+        double valorEmReais = scanner.nextDouble(); 
+
+  
+
+        System.out.println("Digite a cotação do dólar: "); 
+
+        double cotacaoDolar = scanner.nextDouble(); 
+
+  
+
+        double valorEmDolares = valorEmReais / cotacaoDolar; 
+
+  
+
+        System.out.println("O valor em dólares é: " + valorEmDolares); 
+
+    } 
+
+} 
+
+ 
+
+37) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite um número decimal: "); 
+
+        double numeroDecimal = scanner.nextDouble(); 
+
+  
+
+        int numeroArredondado = (int) Math.round(numeroDecimal); 
+
+  
+
+        System.out.println("O número arredondado é: " + numeroArredondado); 
+
+    } 
+
+} 
+
+ 
+
+38) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite o primeiro número inteiro: "); 
+
+        int n1 = scanner.nextInt(); 
+
+  
+
+        System.out.println("Digite o segundo número inteiro: "); 
+
+        int n2 = scanner.nextInt(); 
+
+  
+
+        System.out.println("Digite o terceiro número inteiro: "); 
+
+        int n3 = scanner.nextInt(); 
+
+  
+
+        int resultado = (n1 + n2) * n3; 
+
+  
+
+        System.out.println("O resultado da operação é: " + resultado); 
+
+    } 
+
+} 
+
+ 
+
+39) 
+
+import java.util.Scanner; 
+
+  
+
+public class Main { 
+
+    public static void main(String[] args) { 
+
+        Scanner scanner = new Scanner(System.in); 
+
+  
+
+        System.out.println("Digite a temperatura em graus Celsius: "); 
+
+        double celsius = scanner.nextDouble(); 
+
+  
+
+        double fahrenheit = (celsius * 9 / 5) + 32; 
+
+  
+
+        System.out.println("A temperatura em Fahrenheit é: " + fahrenheit); 
+
+    } 
+
+} 
+
+ 
