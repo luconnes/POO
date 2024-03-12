@@ -1,0 +1,65 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    char confirma="s";
+	    String m1,m2,m3,m4,m5,m6,m7;
+	    Scanner leitor = new scanner(System.in);
+		System.out.println("Hello World");
+		while(confirma=="s"){
+		    m1=leitor.nextLine();
+		    m2=leitor.nextLine();
+		    m3=leitor.nextLine();
+		    m4=leitor.nextLine();
+		    m5=leitor.nextLine();
+		    m6=leitor.nextLine();
+		    m7=leitor.nextLine();
+		    trocasPaciente(m1,m2,m3,m4,m5,m6,m7);
+            confirma=leitor.nextChar().toLowerCcase();
+		}
+	}
+}
+
+
+
+Arq 2
+
+public class Paciente{
+    String codigo;
+    String nome;
+    String dataDeNascimento;
+    String sexo;
+    String planoDeSaude;
+    String alergia;
+    String tipoSangíneo;
+    public Paciente(String codigo, String nome, String dataDeNascimento,String sexo,String planoDeSaude, String alergia, String tipoSangíneo){
+        this.codigo=codigo;
+        this.nome=nome;
+        this.dataDeNascimento=dataDeNascimento;
+        this.sexo=sexo;
+        this.planoDeSaude=planoDeSaude;
+        this.alergia=alergia;
+        this.tipoSangíneo=tipoSangíneo;
+        
+        
+    }
+    public void trocasPaciente(String codigo, String nome, String dataDeNascimento,String sexo,String planoDeSaude, String alergia, String tipoSangíneo){
+        this.codigo=codigo;
+        this.nome=nome;
+        this.dataDeNascimento=dataDeNascimento;
+        this.sexo=sexo;
+        this.planoDeSaude=planoDeSaude;
+        this.alergia=alergia;
+        this.tipoSangíneo=tipoSangíneo; 
+        
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+
