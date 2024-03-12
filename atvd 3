@@ -22,7 +22,7 @@ public class Main
 
 
 
-Arq 2
+///////////////Arq 2
 
 public class Paciente{
     String codigo;
