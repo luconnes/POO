@@ -34,12 +34,59 @@ public class Main {
   static void volumeEsfera(float a5){
     System.out.println("O volume da esfera é:" + (((4)*3.14)*(a5*a5*a5)/3));   
   }
+  static void segundos(int a6,int b6,int c6){
+    System.out.println("O total de segundos é:" + (a6*3600)+(b6*60)+c6);
+  }
+  static void celciusParaFahrenheit(float a7){
+    System.out.println("a temperatura em fahreinheit é:" + ((a7*(9.0/5.0))+32.0));  
+  }
+  static void hipotenusa(float a8, float b8){
+    System.out.println("A hipotenusa é:" + Math.sqrt(a8*a8+b8*b8));
+  }
+  static void volumeCilindro(float a9,float b9){
+    System.out.println("O volume do cilindro é:" + (3.141592*(a9*a9)*b9));
+  }
+  static void maiorNumero(int a10,int a11){
+    if (a10 > a11){
+      System.out.println("O maior número é:" + a10);
+    }
+    else if(a10 < a11){
+      System.out.println("O maior número é:" + a11);
+    }
+    else{
+      System.out.println("Os números são iguais");      
+    }
+  }
+    static void mediaAritimeticaEMediaPonderada(float a11,float b11,float c11) {
+      Scanner leitor = new Scanner(System.in);
+      System.out.println("Qual metodo voce deseja usar(\"A\" para média aritimetica e \"P\" para média ponderada)");
+      char usar = Character.toLowerCase(leitor.next().charAt(0));
+      switch(usar){
+        case 'a':
+            System.out.println("A média aritimetica é:" + (a11+b11+c11)/3);
+            break;
+      case 'p':
+          System.out.println("A média ponderada é:" +((a11*5)+(b11*3)+(c11*2))/10);
+          break;
+      }  
+      leitor.close();
+    }
+  static void somaDeAlgarismos(int a12){
+    int soma = 0;
+    while(a12>0){
+      soma += a12%10;
+      a12 = a12/10;
+    }
+    System.out.println("A soma dos algarismos é:" + soma);
+  }
   public static void main(String[] args) {
     Scanner leitor= new Scanner(System.in);
+    //---------------------------------------------------------------------------------------//
     //QUESTÃO 1
     //System.out.println("Digite um valor:");
     //int a= leitor.nextInt();
     //dobro(a);
+    //---------------------------------------------------------------------------------------//
     //QUESTÃO 2
     //System.out.println("Digite o dia:");
     //int a2= leitor.nextInt();
@@ -48,6 +95,7 @@ public class Main {
     //System.out.println("Digite o ano:");
     //int c2= leitor.nextInt();
     //data(a2,b2,c2);
+    //---------------------------------------------------------------------------------------//
     //QUESTÃO 3
     //System.out.println("Digite um valor:" );
     //int a3=leitor.nextInt();
@@ -66,33 +114,67 @@ public class Main {
         //System.out.println("ERRO ");
         //break;  
     //}
+    //---------------------------------------------------------------------------------------//
     //QUESTÃO 4
     //System.out.println("Informe um numero para verificar se é um quadrado perfeito:");
     //int a4=leitor.nextInt();
     //quadradoPerfeito(a4);
+    //---------------------------------------------------------------------------------------//
     //QUESTÃO 5
     //System.out.println("Informe o raio da esfera:");
     //float a5=leitor.nextFloat();
     //volumeEsfera(a5);
-    leitor.close();
+    //---------------------------------------------------------------------------------------//
+    //QUESTÃO 6
+    //System.out.println("Informe os segundos:");
+    //int a6=leitor.nextInt();
+    //System.out.println("Informe os minutos:");
+    //int b6=leitor.nextInt();
+    //System.out.println("Informe as horas:");
+    //int c6=leitor.nextInt();
+    //segundos(a6,b6,c6);
+    //---------------------------------------------------------------------------------------//
+    //QUESTAO 7
+    //System.out.println("Informe a temperatura em celcius:");
+    //float a7=leitor.nextFloat();
+    //celciusParaFahrenheit(a7);
+    //System.out.println("Informe o cateto oposto:");
+    //float a8=leitor.nextFloat();
+    //---------------------------------------------------------------------------------------//
+    //QUESTÃO 8
+    //System.out.println("Informe o cateto adjacente:");
+    //float b8=leitor.nextFloat();
+    //hipotenusa(a8,b8);
+    //---------------------------------------------------------------------------------------//
+    //Questão 9
+    //System.out.println("Informe o raio do cilindro:");
+    //float a9=leitor.nextFloat();
+    //System.out.println("Informe a altura do cilindro:");
+    //float b9=leitor.nextFloat();
+    //volumeCilindro(a9,b9);
+    //---------------------------------------------------------------------------------------//
+    //QUESTÃO 10
+    //System.out.println("Informe o primeiro número:");
+    //int a10=leitor.nextInt();
+    //System.out.println("Informe o segundo número:");
+    //int a11=leitor.nextInt();
+    //maiorNumero(a10,a11);
+    //---------------------------------------------------------------------------------------//
+    //QUESTÃO 11
+    //System.out.println("Inforne a primeira nota:");
+    //float a11=leitor.nextFloat();
+    //System.out.println("Inforne a segunda nota:");
+    //float b11=leitor.nextFloat();
+    //System.out.println("Inforne a terceira nota:");
+    //float c11=leitor.nextFloat();
+    //mediaAritimeticaEMediaPonderada(a11,b11,c11);
+    //---------------------------------------------------------------------------------------//
+    //QUESTÃO 12
+    //System.out.println("Informe um número:");
+    //int a12=leitor.nextInt();
+    //somaDeAlgarismos(a12);
+    //leitor.close();
+    //---------------------------------------------------------------------------------------//
+    
    }
 }
-//QUESTÃO 6
-
-
-
-//QUESTÃO 7
-
-
-
-//QUESTÃO 8
-
-
-
-//QUESTÃO 9
-
-
-
-//QUESTÃO10
-
-
