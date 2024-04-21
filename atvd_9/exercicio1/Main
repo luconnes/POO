@@ -1,0 +1,19 @@
+
+import java.util.ArrayList;
+public class Main {  
+    public static void main(String[] args){
+        ArrayList<Funcionario>funcionarios = new ArrayList<>();
+        funcionarios.add( new Funcionario("Lucas",30000, 20));
+        funcionarios.add( new Funcionario("Pablo", 50000,18));
+        funcionarios.add( new Funcionario("Pedro", 8000, 60));
+        funcionarios.add(new Funcionario("Braga", 13000, 49));
+        funcionarios.add( new Funcionario("Vini", 4000, 47));
+        funcionarios.add( new Funcionario("Paul", 20000, 55));
+        int i=funcionarios.size();
+         for (Funcionario funcionario : funcionarios) {
+            if(funcionario.getIdade()<=20 && funcionario.getSalario()>=30000){
+            System.out.println("Nome: " + funcionario.getNome() + "\n" +"Salário anual: " + funcionario.getSalario() + "\n" +"Idade: " + funcionario.getIdade() + "\n");
+            }
+        }
+    }
+}
